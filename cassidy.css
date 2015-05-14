@@ -1,0 +1,59 @@
+*{
+	background-color: white;   /*need this overriden*/
+}
+div {
+
+	height: 50px;
+	width: 200px;
+	display: block;
+	position: relative;
+	right: -250px;
+
+}
+
+ .picture {
+
+ 	height: 100%;
+ 	width: 200px;
+ 	position: relative;
+ 	right: -275px;
+
+}
+
+.title {
+	height: 75px;
+	width: 500px;
+/*	background-color: black;*/
+	font-size: 250% ;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	/*text info*/
+	text-shadow:.2em .2em .01em silver;
+}
+
+#intro {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: red;
+	font-size: 100%;
+	position: relative;
+	right: 120px;
+}
+
+#work {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	height: 500px;
+	width: 1000px;
+	position: relative;
+	right: -180px;
+
+}
+#first {
+	font-size: 200%;
+	color: black;
+}
+
+h3 {
+	font-size: 100%;
+}
