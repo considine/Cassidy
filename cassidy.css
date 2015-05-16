@@ -1,14 +1,9 @@
 *{
 	background-color: white;   /*need this overriden*/
-	border: solid black;
+	/*border: solid black;*/
 }
 div {
 
-	height: 50px;
-	width: 200px;
-	display: block;
-/*	position: relative;
-	right: -250px;*/
 
 }
 
@@ -19,14 +14,16 @@ nav {
  .picture {
  	margin-right: auto;
  	margin-left: auto;
- 	height: 200px;
+ 	height: 100%;
  	width: 500px;
- 	display: inline-block;
- 	background-image: url('cassidy.jpeg');
- 	background-image: url('cassidy1.JPG');
- 	background-repeat: no-repeat;
- 	background-position: center;
+ 	display: block;
 
+}
+
+
+.column1{
+	position: relative;
+	right: -100px;
 }
 
 
@@ -60,23 +57,30 @@ nav {
 #work {
 	position: relative;
 	top: 10px;
+	right: -8px;
 	display: block;
 	clear: left;
 	font-family: 'Oswald', sans-serif;
 	color: white;
-	height: 500px;
-	width: 50%;
+	height: 100%;
+	width: 45%;
 }
 #first {
+	clear: left;
 	font-size: 200%;
 	color: black;
-	height: 35px;
+	height: 8%;
 }
 
 .essay {
-
+	clear: left;
+	position: relative;
+	top: 20px;
+	font-family: times;
 	font-size: 100%;
 	color: black;
+	clear: left;
+
 }
 
 h3 {
@@ -93,8 +97,14 @@ hr {
 img {
 	height: 200px;
 	width: 200px;
+	position: relative;
+	/*right: -20px;*/
 }
 
 a{
 	text-decoration: none;
+	font-size: 80%;
+}
+strong{
+	font-weight: bold;
 }
