@@ -19,15 +19,14 @@ nav {
  .picture {
  	margin-right: auto;
  	margin-left: auto;
- 	height: 150px;
- 	width: 150px;
+ 	height: 200px;
+ 	width: 500px;
  	display: inline-block;
  	background-image: url('cassidy.jpeg');
- 	/*background-attachment: fixed;*/
- 	/*float: left;*/
- 	/*position: relative;
- 	right: 50px;
-*/
+ 	background-image: url('cassidy1.JPG');
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+
 }
 
 
@@ -59,16 +58,24 @@ nav {
 }
 
 #work {
+	position: relative;
+	top: 10px;
+	display: block;
 	clear: left;
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	height: 500px;
-	width: 1000px;
-
-*/
+	width: 50%;
 }
 #first {
 	font-size: 200%;
+	color: black;
+	height: 35px;
+}
+
+.essay {
+
+	font-size: 100%;
 	color: black;
 }
 
@@ -89,6 +96,5 @@ img {
 }
 
 a{
-	width: 50px;
 	text-decoration: none;
 }
