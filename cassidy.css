@@ -38,11 +38,10 @@ nav {
 	color: black;
 	font-family: 'Oswald', sans-serif;
 	/*text info*/
-	
 	text-shadow:.2em .2em .01em silver;
 	position: relative;
-	right: -280px;
-	border: solid-black;
+	right: -250px;
+	border: solid black;
 }
 
 #intro {
@@ -68,6 +67,7 @@ nav {
 }
 #work1 {
 	position: relative;
+	vertical-align: top;
 	right: -20px;
 	top: 10px;
 	display: inline-block;
@@ -82,6 +82,7 @@ nav {
 	font-size: 125%;
 	color: black;
 	height: 8%;
+	font-weight: bold;
 
 }
 .allwork {
@@ -97,7 +98,6 @@ nav {
 	font-family: oswald;
 	font-size: 100%;
 	color: black;
-	clear: left;
 
 }
 .sitenav {
@@ -107,11 +107,10 @@ nav {
 	top: 20px;
 	right: -20px;
 	height: 200px;
-	width: 200px;
-	background-color: blue;
+	width: 100px;
 	text-align: right;
 	padding: 10px;
-	background-color: blue;
+	background-color: gray
 }
 
 h3 {
@@ -136,5 +135,5 @@ strong{
 
 .nav {
 	padding: 5px;
-	border: 2px solid-black;
+	border-style: solid-black;
 }
